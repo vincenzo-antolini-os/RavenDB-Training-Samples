@@ -1,0 +1,134 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenSamples", "RavenSamples\RavenSamples.csproj", "{77795A91-D7B4-430E-B2AD-5AA5476E64A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenSamples.Common", "RavenSamples.Common\RavenSamples.Common.csproj", "{7F922321-2B8F-4834-ABEB-5141BD57C006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenSamples.Loader", "RavenSamples.Loader\RavenSamples.Loader.csproj", "{C447ED9A-CFA8-42B7-B9CC-466112E51327}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Northwind", "Northwind", "{D0264EF5-09FE-4206-BF19-A0BAB2ABF47A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind", "Northwind\Northwind.csproj", "{54BAA591-165B-4CF0-9907-002FFC2A4384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenTraining", "RavenTraining\RavenTraining.csproj", "{4C2D22F3-00E6-4083-B057-0F44DF242E92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{540148E5-D2AA-499D-B4DF-E3070DC028D6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facets", "Facets\Facets.csproj", "{BE57E8F6-2E2C-4A45-BFB7-A77F98EC98BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shards", "Shards\Shards.csproj", "{A934E7A6-4BA8-4F8E-95D7-19DB55356D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boost", "Boost\Boost.csproj", "{85671B09-26A5-4A03-B200-3505B79B432F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Changes", "Changes\Changes.csproj", "{E3FBF6EC-B06B-4604-A569-238C1162C18E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicFields", "DynamicFields\DynamicFields.csproj", "{B0D5C901-0477-46E7-900C-F86D024532CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recurse", "Recurse\Recurse.csproj", "{1D4F1C0F-A74A-4183-BFA7-F8C0C52E81C9}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://topics.tfspreview.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Boost\\Boost.csproj
+		SccProjectName1 = Boost
+		SccLocalPath1 = Boost
+		SccProjectUniqueName2 = Changes\\Changes.csproj
+		SccProjectName2 = Changes
+		SccLocalPath2 = Changes
+		SccProjectUniqueName3 = DynamicFields\\DynamicFields.csproj
+		SccProjectName3 = DynamicFields
+		SccLocalPath3 = DynamicFields
+		SccProjectUniqueName4 = Facets\\Facets.csproj
+		SccProjectName4 = Facets
+		SccLocalPath4 = Facets
+		SccProjectUniqueName5 = Northwind\\Northwind.csproj
+		SccProjectTopLevelParentUniqueName5 = RavenSamples.sln
+		SccProjectName5 = Northwind
+		SccLocalPath5 = Northwind
+		SccProjectUniqueName6 = RavenSamples.Common\\RavenSamples.Common.csproj
+		SccProjectName6 = RavenSamples.Common
+		SccLocalPath6 = RavenSamples.Common
+		SccProjectUniqueName7 = RavenSamples.Loader\\RavenSamples.Loader.csproj
+		SccProjectName7 = RavenSamples.Loader
+		SccLocalPath7 = RavenSamples.Loader
+		SccProjectUniqueName8 = RavenSamples\\RavenSamples.csproj
+		SccProjectName8 = RavenSamples
+		SccLocalPath8 = RavenSamples
+		SccProjectUniqueName9 = RavenTraining\\RavenTraining.csproj
+		SccProjectName9 = RavenTraining
+		SccLocalPath9 = RavenTraining
+		SccProjectUniqueName10 = Shards\\Shards.csproj
+		SccProjectName10 = Shards
+		SccLocalPath10 = Shards
+		SccProjectUniqueName11 = Recurse\\Recurse.csproj
+		SccProjectName11 = Recurse
+		SccLocalPath11 = Recurse
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77795A91-D7B4-430E-B2AD-5AA5476E64A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77795A91-D7B4-430E-B2AD-5AA5476E64A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77795A91-D7B4-430E-B2AD-5AA5476E64A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77795A91-D7B4-430E-B2AD-5AA5476E64A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F922321-2B8F-4834-ABEB-5141BD57C006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F922321-2B8F-4834-ABEB-5141BD57C006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F922321-2B8F-4834-ABEB-5141BD57C006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F922321-2B8F-4834-ABEB-5141BD57C006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C447ED9A-CFA8-42B7-B9CC-466112E51327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C447ED9A-CFA8-42B7-B9CC-466112E51327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C447ED9A-CFA8-42B7-B9CC-466112E51327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C447ED9A-CFA8-42B7-B9CC-466112E51327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BAA591-165B-4CF0-9907-002FFC2A4384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BAA591-165B-4CF0-9907-002FFC2A4384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BAA591-165B-4CF0-9907-002FFC2A4384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BAA591-165B-4CF0-9907-002FFC2A4384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2D22F3-00E6-4083-B057-0F44DF242E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2D22F3-00E6-4083-B057-0F44DF242E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2D22F3-00E6-4083-B057-0F44DF242E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2D22F3-00E6-4083-B057-0F44DF242E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE57E8F6-2E2C-4A45-BFB7-A77F98EC98BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE57E8F6-2E2C-4A45-BFB7-A77F98EC98BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE57E8F6-2E2C-4A45-BFB7-A77F98EC98BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE57E8F6-2E2C-4A45-BFB7-A77F98EC98BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A934E7A6-4BA8-4F8E-95D7-19DB55356D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A934E7A6-4BA8-4F8E-95D7-19DB55356D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A934E7A6-4BA8-4F8E-95D7-19DB55356D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A934E7A6-4BA8-4F8E-95D7-19DB55356D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85671B09-26A5-4A03-B200-3505B79B432F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85671B09-26A5-4A03-B200-3505B79B432F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85671B09-26A5-4A03-B200-3505B79B432F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85671B09-26A5-4A03-B200-3505B79B432F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3FBF6EC-B06B-4604-A569-238C1162C18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FBF6EC-B06B-4604-A569-238C1162C18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FBF6EC-B06B-4604-A569-238C1162C18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FBF6EC-B06B-4604-A569-238C1162C18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D5C901-0477-46E7-900C-F86D024532CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D5C901-0477-46E7-900C-F86D024532CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D5C901-0477-46E7-900C-F86D024532CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D5C901-0477-46E7-900C-F86D024532CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4F1C0F-A74A-4183-BFA7-F8C0C52E81C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4F1C0F-A74A-4183-BFA7-F8C0C52E81C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4F1C0F-A74A-4183-BFA7-F8C0C52E81C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4F1C0F-A74A-4183-BFA7-F8C0C52E81C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54BAA591-165B-4CF0-9907-002FFC2A4384} = {D0264EF5-09FE-4206-BF19-A0BAB2ABF47A}
+	EndGlobalSection
+EndGlobal

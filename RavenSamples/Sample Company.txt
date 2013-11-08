@@ -1,0 +1,60 @@
+companies/
+
+{
+  "CompanyName": "",
+  "OpeningDate": "2004-03-22T00:00:00.0000000"
+}
+
+{
+  "Raven-Entity-Name": "Companies",
+  "Raven-Clr-Type": "RavenSamples.Common.Company, RavenSamples.Common"
+}
+
+orders/
+
+{
+	"Customer": "sample customer",
+	"Items": [
+		{
+			"Quantity": 10,
+			"UnitPrice": 50.6,
+			"Description": "Sample item"
+		},
+		{
+			"Quantity": 6,
+			"UnitPrice": 25.6,
+			"Description": "Another sample item"
+		}
+	]
+}
+
+
+{
+  "Raven-Entity-Name": "Orders",
+  "Raven-Clr-Type": "RavenSamples.Common.Order, RavenSamples.Common"
+}
+
+
+
+
+
+{
+  "Name": "Orders Replica",
+  "Disabled": false,
+  "RavenEntityName": "Orders",
+  "Script": "var order = {\r\n\tCustomer: this.Customer,\r\n\tTotalPrice: 0.0\r\n};\r\n\r\nfor(var i = 0; i < this.Items.length; i++ ){\r\n\tvar item = this.Items[i];\r\n\torder.TotalPrice += (item.UnitPrice * item.Quantity);\r\n\treplicateToOrderItems( { OrderId: documentId, Description: item.Description, UnitPrice: item.UnitPrice, Quantity: item.Quantity } )\r\n}\r\n\r\nreplicateToOrders(order)",
+  "FactoryName": "System.Data.SqlClient",
+  "ConnectionString": "Server=.\\SqlExpress; Database=CGNSample; User Id=RavenReplicaUser; Password=P@ssw0rd;",
+  "ConnectionStringName": null,
+  "ConnectionStringSettingName": null,
+  "SqlReplicationTables": [
+    {
+      "TableName": "Orders",
+      "DocumentKeyColumn": "Id"
+    },
+    {
+      "TableName": "OrderItems",
+      "DocumentKeyColumn": "OrderId"
+    }
+  ]
+}
